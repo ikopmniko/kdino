@@ -35,10 +35,10 @@ def read_csv_range(filename, start, end):
         rows = [row[0] for i, row in enumerate(csv.reader(f)) if start <= i < end]
     return rows
 
-start_row = 50
-end_row = 100
+start_row = 100
+end_row = 150
 
-email = "kaylie_wheaton@yahoo.com"
+email = "misael_mcgrath@yahoo.com"
 
 
 
